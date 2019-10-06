@@ -1,0 +1,25 @@
+{
+  "name": "mockup-website-tyara",
+  "version": "0.1.0",
+  "description": "A dynamic website for Tyara Edmond-Pledger",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "pug": "2.0.4",
+    "angular": "1.7.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitebrandon/mock-site-for-tyara.git"
+  },
+  "author": "Brandon Sean White",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whitebrandon/mock-site-for-tyara/issues"
+  },
+  "homepage": "https://github.com/whitebrandon/mock-site-for-tyara#readme"
+}
