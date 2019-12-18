@@ -2,32 +2,96 @@
 html.no-js(lang="en", dir="ltr")
     head
         meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, inital-scale=1.0")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         title Tyara | Psychologist
         link(rel="shortcut icon", href="favicon.ico", type="image/x-icon")
         //-
             ↓ Stylesheet for Google Font
             link(rel="stylesheet", href="style.css")
-        link(rel="stylesheet", href="/static/css/normal.css")
-        link(rel="stylesheet", href="/static/css/foundation.css")
-        link(rel="stylesheet", href="/static/css/animate.css")
-        link(rel="stylesheet", href="/static/css/styles.css")
+        link(rel="stylesheet", type="text/css" href="/static/css/normal.css")
+        link(rel="stylesheet", type="text/css" href="/static/css/foundation.css")
+        link(rel="stylesheet", type="text/css" href="/static/css/animate.css")
+        link(rel="stylesheet", type="text/css" href="/static/css/styles.css")
     body
         header.banner
-            h1 I am a Psychologist
-            nav
+            h1 Tyara Edmond-Pledger | Psychologist
+            h3 Counseling for Individuals, Couples, &amp; Families
+            .contact-info
+            p
+                | 1234 Something Rd
+                | Ste 123
+                | Winston Salem, NC 27103
+                | 336-765-4321
+            nav.main-navigation
                 ul
                     li Home
                     li Services
+                        ul.hidden
+                            li We
+                            li Do
+                            li Stuff
+                            li Here
                     li Appointment Information
+                        ul.hidden
+                            li Call
+                            li For
+                            li Appointment
                     li Events
+                        ul.hidden
+                            li These
+                            li Are
+                            li Events
                     li Resources
-        div.container
-            
-        
+                        ul.hidden
+                            li These
+                            li Are
+                            li Resources
+        .wrapper
+            .home-banner
+                p Some Image
+            main
+                section.contact-us
+                    .appointment
+                        h4 Contact us for an appointment
+                        p Start your new path in life and be the change today!
+                        button Click here
+                    .new-client
+                        h4 New Client Forms
+                        p Click here for everything you need for your first visit.
+                        button Click here
+                section.mission-statement
+                    p
+                        | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their projects again and again. And if she hasn’t been rewritten, then they are still using her.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                section.newsletter-signup
+                    form(action='#')
+                        label(for='name') Name:
+                        input#name(type='text')
+                        label(for='email') Email:
+                        input#email(type='email')
+                        button(type='submit') Submit
+                aside
+        footer
+            .contact-us-footer
+                form(action='#')
+                    h4 Contact Us
+                    p Request an appoinment or more information
+                    input(type='text', name='name', placeholder='Enter your name (Required)')
+                    input(type='email', name='email', placeholder='Enter your email (Required)')
+                    input(type='tel', name='tel', placeholder='(XXX) XXX-XXX (Required)')
+                    input(type='text', name='notes', placeholder='Notes')
+                    button(type='submit') Submit
+                nav.footer-nav
+                    p.copyright Copyright © 2019
+                    ul
+                    li Admin Login
+                    li Privacy Policy
+                    li Terms of Use
+                    li Health Disclaimer
+                    li Cookie Policy
         script(src="/static/js/vendor/jquery.js")
         script(src="/static/js/vendor/what-input.js")
         script(src="/static/js/vendor/foundation.js")
         script(src="/static/js/scripts.js")
         script(src="/static/js/main.js")
+
